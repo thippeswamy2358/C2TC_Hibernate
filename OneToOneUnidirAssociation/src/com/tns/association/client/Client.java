@@ -16,14 +16,14 @@ public class Client {
 		em.getTransaction().begin();
 		
 		Student student = new Student();
-		student.setSname("Gayatri");
+		student.setSname("swamy");
 		
 		Address homeAddress = new Address();
 		
-		homeAddress.setStreet("Laggere");
+		homeAddress.setStreet("kotigepalya");
 		homeAddress.setCity("Banaglore");
 		homeAddress.setState("Karnataka");
-		homeAddress.setPincode(411017);
+		homeAddress.setPincode(560091);
 		//inject address into student
 				student.setAddress(homeAddress);
 				//persist only student, no need to persist Address explicitly
