@@ -10,6 +10,7 @@ public class Student {
 	@Id
 private int sid;
 private String sname;
+
 public int getSid() {
 	return sid;
 }
@@ -26,7 +27,7 @@ public Student() {
 	
 }
 public Student(int sid, String sname) {
-	super();
+	
 	this.sid = sid;
 	this.sname = sname;
 }
