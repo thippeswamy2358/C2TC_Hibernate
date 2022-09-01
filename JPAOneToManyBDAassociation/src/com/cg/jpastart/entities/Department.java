@@ -39,8 +39,8 @@ public class Department implements Serializable{
 	
 	
 	public void addEmployee1(Employee employee1) {
-		employee.setDepartment(this);
-		this.getEmployees().add(employee);
+		((Employee) employees).setDepartment(this);
+		this.getEmployees().add((Employee) employees);
 	}
 	
 }
