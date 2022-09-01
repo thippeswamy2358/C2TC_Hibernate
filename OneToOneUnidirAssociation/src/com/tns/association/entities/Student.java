@@ -38,10 +38,10 @@ public void setAddress(Address address) {
 	this.address = address;
 }
 public Student() {
-	super();
+	
 }
 public Student(int sid, String sname, Address address) {
-	super();
+
 	this.sid = sid;
 	this.sname = sname;
 	this.address = address;

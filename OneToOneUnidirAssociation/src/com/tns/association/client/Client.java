@@ -23,7 +23,7 @@ public class Client {
 		homeAddress.setStreet("kotigepalya");
 		homeAddress.setCity("Banaglore");
 		homeAddress.setState("Karnataka");
-		homeAddress.setPincode(560091);
+		homeAddress.setzipcode(560091);
 		//inject address into student
 				student.setAddress(homeAddress);
 				//persist only student, no need to persist Address explicitly
