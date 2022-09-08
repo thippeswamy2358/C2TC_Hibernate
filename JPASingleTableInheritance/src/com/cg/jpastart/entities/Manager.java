@@ -18,15 +18,6 @@ private static final long serialVersionUID = 1L;
 		this.departmentName = departmentName;
 	}
 
-	public void setName(String string) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	public void setSalary(int i) {
-		// TODO Auto-generated method stub
-		
-	}
-
+	
 
 }
