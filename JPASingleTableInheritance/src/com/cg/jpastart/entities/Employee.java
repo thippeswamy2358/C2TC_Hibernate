@@ -13,7 +13,7 @@ import javax.persistence.Inheritance;
 import javax.persistence.InheritanceType;
 import javax.persistence.Table;
 @Entity
-@Table(name="emp_store2")
+@Table(name="employee")
 
 @Inheritance(strategy=InheritanceType.SINGLE_TABLE)
 
